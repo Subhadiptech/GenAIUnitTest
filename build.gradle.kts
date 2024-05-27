@@ -14,9 +14,9 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    localPath.set("/Application/Android Studio Preview.App/Contents")
-    type.set("AS") // Target IDE Platform
-    plugins.set(listOf("kotlin", "android"))
+    type.set("ANDROID_STUDIO") // Target IDE Platform
+    localPath.set("/Applications/Android Studio.app/Contents/")
+    plugins.set(listOf("org.jetbrains.kotlin", "org.jetbrains.android"))
 }
 
 tasks {
